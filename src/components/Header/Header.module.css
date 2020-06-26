@@ -1,7 +1,17 @@
 .header {
   grid-area: h;
   background-color: cadetblue;
+  display:flex;
+  justify-content: space-between;
 }
 .header img {
   width: 40px;
+}
+.loginBlock a {
+  color: white;
+}
+.loginError{
+  padding: 10px;
+  color: red;
+  border: 1px solid red;
 }

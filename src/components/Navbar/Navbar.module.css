@@ -1,7 +1,18 @@
-.nav {
+.bar {
+  display: grid;
+  grid-template-areas: "t" "l";
+  grid-template-rows: 1fr 1fr;
+}
+.bar {
   grid-area: n;
   background-color: goldenrod;
   padding: 20px;
+}
+.top {
+  grid-area: t;
+}
+.low {
+  grid-area: l;
 }
 .item a{
   color:white;

@@ -1,13 +1,11 @@
 import React from 'react';
-import classes from './Profile.module.css';
-import MyPosts from './MyPosts/MyPosts';
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 const Profile = (props) => {
-debugger;
     return <div>
-        <ProfileInfo/>
-        <MyPosts posts={props.state.posts}/>
+        <ProfileInfo status={props.status} updateStatus={props.updateStatus} profile={props.profile}/>
+        <MyPostsContainer />
     </div>
 }
 

@@ -1,33 +1,27 @@
-.dialogs {
-    display: grid;
-    grid-template-columns: 2fr 10fr;
-}
 
-.dialogsItems {
+.friends {
+color: white;
+}
+.friendsElements {
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.dialog a {
+.friend a {
     color: white;
     text-decoration: none;
 }
-.dialog img{
+.friend img{
     display: block;
     width: 50px;
     height: 40px;
     border-radius: 25px;
 }
-.dialog {
+.friend {
     margin-top: 10px;
 }
-.dialog .active {
+.friend .active {
     color: gold;
 }
 
-.messages {
-    padding: 10px;
-}
-
-.message {
-
-}
